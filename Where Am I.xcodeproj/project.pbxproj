@@ -13,6 +13,8 @@
 		839D1E821B34D3940002951F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839D1E811B34D3940002951F /* Images.xcassets */; };
 		839D1E851B34D3940002951F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839D1E831B34D3940002951F /* LaunchScreen.xib */; };
 		839D1E911B34D3940002951F /* Where_Am_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839D1E901B34D3940002951F /* Where_Am_ITests.swift */; };
+		839D1E9B1B34D3C00002951F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839D1E9A1B34D3C00002951F /* CoreLocation.framework */; };
+		839D1E9D1B34D7DD0002951F /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 839D1E9C1B34D7DD0002951F /* red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		839D1E8A1B34D3940002951F /* Where Am ITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where Am ITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		839D1E8F1B34D3940002951F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839D1E901B34D3940002951F /* Where_Am_ITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_ITests.swift; sourceTree = "<group>"; };
+		839D1E9A1B34D3C00002951F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		839D1E9C1B34D7DD0002951F /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839D1E9B1B34D3C00002951F /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		839D1E6C1B34D3940002951F = {
 			isa = PBXGroup;
 			children = (
+				839D1E9A1B34D3C00002951F /* CoreLocation.framework */,
 				839D1E771B34D3940002951F /* Where Am I */,
 				839D1E8D1B34D3940002951F /* Where Am ITests */,
 				839D1E761B34D3940002951F /* Products */,
@@ -80,6 +86,7 @@
 				839D1E7A1B34D3940002951F /* AppDelegate.swift */,
 				839D1E7C1B34D3940002951F /* ViewController.swift */,
 				839D1E7E1B34D3940002951F /* Main.storyboard */,
+				839D1E9C1B34D7DD0002951F /* red.png */,
 				839D1E811B34D3940002951F /* Images.xcassets */,
 				839D1E831B34D3940002951F /* LaunchScreen.xib */,
 				839D1E781B34D3940002951F /* Supporting Files */,
@@ -193,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				839D1E801B34D3940002951F /* Main.storyboard in Resources */,
+				839D1E9D1B34D7DD0002951F /* red.png in Resources */,
 				839D1E851B34D3940002951F /* LaunchScreen.xib in Resources */,
 				839D1E821B34D3940002951F /* Images.xcassets in Resources */,
 			);
